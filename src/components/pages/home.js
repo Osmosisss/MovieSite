@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Header from "./header";
-import Genres from "./genres";
+import Header from "../header";
+import Genres from "../genres";
 
-export default class App extends Component {
+export default class Home extends Component {
   render() {
     return (
       <div>
