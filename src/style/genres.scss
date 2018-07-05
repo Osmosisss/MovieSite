@@ -1,0 +1,38 @@
+body {
+  background: url("/assets/background.jpg") no-repeat fixed center;
+}
+
+.hero-page {
+  width: 100vw;
+  height: 100vh;
+
+  .wrapper {
+    padding: 40px;
+    display: flex;
+    .columns {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-auto-rows: 25% 25% 400px;
+      grid-gap: 25px;
+      .profile {
+        display: flex;
+
+        img {
+          border-radius: 3px;
+        }
+        p {
+          padding: 40px;
+          background-color: black;
+          opacity: 0.8;
+          color: white;
+          border-radius: 3px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+p {
+  width: 50%;
+}

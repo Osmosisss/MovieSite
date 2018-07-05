@@ -41,26 +41,14 @@
   transition: 0.5s;
 }
 
-.pic2 {
-  //background-image: url("dccomics.jpg");
-  background-repeat: no-repeat;
-  background-size: 530px 300px;
-  background-position: -140px 250px;
-}
-
 .side-bar {
   text-align: center;
-  background-image: url("/assets/La-chancla.png");
-  background-repeat: no-repeat;
-  background-size: 35%;
-  background-position: 650px;
 
   background-color: black;
   display: flex;
   flex-direction: column;
   color: white;
   font-weight: bold;
-  padding: 20px 0 20px 30px;
 
   a:visited {
     color: white;
@@ -108,6 +96,5 @@
 
 .open {
   background-color: crimson;
-  // height: 150px;
   margin-left: 250px;
 }

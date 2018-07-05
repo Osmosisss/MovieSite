@@ -24,7 +24,6 @@ class Header extends Component {
 
   closeSlideMenu = () => {
     "side-menu".classList.remove("open");
-    console.log("whats good");
   };
 
   render() {
@@ -55,8 +54,9 @@ class Header extends Component {
         <AnimateHeight duration={700} height={this.state.height}>
           <div className="main" className="side-bar">
             <a href="#">Home</a>
-            <a href="./hero.js">Super-Heroes</a>
-            <a href="#">Villains</a>
+            <a href="#">Genres</a>
+            <a href="#">Top Movies</a>
+            <a href="#">Movies</a>
           </div>
         </AnimateHeight>
       </div>
