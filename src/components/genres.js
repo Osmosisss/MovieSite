@@ -3,72 +3,35 @@ import React, { Component } from "react";
 class Genres extends Component {
   render() {
     return (
-      <div className="hero-page">
-        <div className="wrapper">
-          <div className="columns">
-            <div className="profile">
-              <a href="https://www.dccomics.com/characters/superman">
-                <img src="assets/action.jpg" alt="action" />
-              </a>
-              <p>
-                <b>Action</b>
-              </p>
+      <div className="main">
+        <div className="agg">
+          <div className="image">
+            <a href="#">
+            <div className='action'>
+              <h1>Action</h1>
             </div>
-            <div className="profile">
-              <a href="https://www.dccomics.com/characters/aquaman">
-                <img
-                  src="assets/adventure.jpg"
-                  alt="adventure"
-                  width="200px"
-                  height="200px"
-                />
-              </a>
-              <p>
-                <b>Adventure</b>
-              </p>
+              <img src="assets/scottyboi.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div className="agg">
+          <div className="image">
+            <a href="#">
+            <div className='adventure'>
+              <h1>Adventure</h1>
             </div>
-            <div className="profile">
-              <a href="https://www.dccomics.com/characters/batman">
-                <img src="assets/comedy.jpg" alt="batman" />
-              </a>
-              <p>
-                <b>Comedy</b>
-              </p>
+              <img src="assets/thegoonies.png" alt="adventure" />
+            </a>
+          </div>
+        </div>
+        <div className="agg">
+          <div className="image">
+            <a href="#">
+            <div className='comedy'>
+              <h1>Comedy</h1>
             </div>
-            <div className="profile">
-              <a href="https://www.dccomics.com/characters/wonder-woman">
-                <img
-                  src="assets/drama.jpeg"
-                  alt="wonder woman"
-                  width="200px"
-                  height="200px"
-                />
-              </a>
-              <p>
-                <b>Drama</b>
-              </p>
-            </div>
-            <div className="profile">
-              <a href="https://www.dccomics.com/characters/the-flash">
-                <img src="assets/horror.jpg" alt="the flash" />
-              </a>
-              <p>
-                <b>Horror</b>
-              </p>
-            </div>
-            <div className="profile">
-              <a href="https://www.dccomics.com/characters/cyborg">
-                <img
-                  src="assets/suspense.jpeg"
-                  alt="cyborg"
-                  width="200px"
-                  height="200px"
-                />
-              </a>
-              <p>
-                <b>Suspense</b>
-              </p>
-            </div>
+              <img src="assets/clerksposter.jpg" alt="" />
+            </a>
           </div>
         </div>
       </div>
